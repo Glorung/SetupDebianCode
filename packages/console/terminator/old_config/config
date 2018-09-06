@@ -1,0 +1,26 @@
+[global_config]
+  extra_styling = False
+  handle_size = 0
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#263238"
+    background_darkness = 0.75
+    cursor_color = "#aaaaaa"
+    cursor_shape = ibeam
+    foreground_color = "#90a4ae"
+    icon_bell = False
+    palette = "#37474f:#c62828:#2e7d32:#f9a825:#37474f:#6a1b9a:#00695c:#4e342e:#90a4ae:#e57373:#81c784:#fff176:#90a4ae:#ba68c8:#4db6ac:#a1887f"
+    scroll_on_keystroke = False
+    scrollbar_position = hidden
+    show_titlebar = False
+    visible_bell = True
